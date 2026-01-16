@@ -1,4 +1,4 @@
-# LuxMeter v1.0 — Hardware Datasheet
+# LuxMeter v1.0 - Hardware Datasheet
 
 <div align="center">
   <img src="./images/LuxMeter.jpg" width="60%" alt="LuxMeter" />
