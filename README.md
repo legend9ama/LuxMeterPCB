@@ -56,8 +56,8 @@ Datasheets for key components are stored locally in the [`docs/`](./docs) direct
 | **PF1** | `BTN_2` | `BTN_2` | User Button 2 | **Low** (Requires Internal Pull-Up) |
 | **PA0** | `BATT_MON` | `BATT_MON` | ADC Input (Chan 0) | Analog Voltage (Divided by 2) |
 | **PA1** | `LED_R` | `LED_R` | User LED (Red) | **High** |
-| **PA2** | `BATT_EN` | `BATT_EN` | Battery Monitor Enable | **High** (Enable measurement) |
-| **PA3** | `BH_RST` | `BH_RST` | Sensor Reset / DVI | Check BH1750 Datasheet |
+| **PA2** | `BH_RST` | `BH_RST` | Sensor Reset / DVI | Check BH1750 Datasheet |
+| **PA3** | `BATT_EN` | `BATT_EN` | Battery Monitor Enable | **High** (Enable measurement) |
 | **PA4** | `SD_CS` | `SD_CS` | MicroSD Chip Select | **Low** (Software Controlled) |
 | **PA5** | `SPI1_SCK` | `SPI1_SCK` | SPI Clock | AF0 |
 | **PA6** | `SPI1_MISO` | `SPI1_MISO` | SPI MISO | AF0 |
