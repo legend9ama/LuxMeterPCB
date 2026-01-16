@@ -98,7 +98,7 @@ The board uses a push-push type Molex connector.
 **Important notes for assembling the v1.0 PCB:**
 
 1.  **Capacitor C6 Interference:**
-    * **Issue:** The decoupling capacitor `C6` (near the SD slot) is placed too close to the **Molex 104031-0811** metal shield. This prevents the connector from sitting flush or causes short circuits.
+    * **Issue:** The decoupling capacitor `C6` is placed directly in the insertion path of the MicroSD card. The physical height of the component blocks the card from entering the Molex slot.
     * **Workaround:** Simply remove (desolder) `C6`. The SD card interface functions correctly without it.
     
 2.  **Incorrect Connector Pitch (OLED & SWD):**
